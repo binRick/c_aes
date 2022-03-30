@@ -1,6 +1,5 @@
 {
     "name": "c_aes",
-    "version": "master",
     "repo": "binRick/c_aes",
     "description": "AES",
     "keywords": [
