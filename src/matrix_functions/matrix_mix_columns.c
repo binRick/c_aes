@@ -7,7 +7,7 @@
 
 #include "aes_matrix.h"
 
-inline uint8_t xtime(uint8_t x)
+uint8_t xtime(uint8_t x)
 {
     return (x << 1) ^ (((x >> 7) & 1) * 0x1b);
 }
