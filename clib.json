@@ -11,6 +11,7 @@
     "makefile": "Makefile",
     "install": "make install",
     "src": [
+      "example.c",
       "include/aes_boxes.h",
       "include/aes.h",
       "include/aes_init.h",
