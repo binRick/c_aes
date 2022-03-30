@@ -9,6 +9,25 @@
     "license": "MIT",
     "makefile": "Makefile",
     "install": "make install",
+    "src": [
+      "include/aes_boxes.h",
+      "include/aes.h",
+      "include/aes_init.h",
+      "include/aes_matrix.h",
+      "include/aes_tools.h",
+      "src/aes.c",
+      "src/aes_change.c",
+      "src/aes_decrypt.c",
+      "src/aes_encrypt.c",
+      "src/aes_key_expansion.c",
+      "src/aes_padding.c",
+      "src/aes_random.c",
+      "src/aes_tools.c",
+      "src/matrix_functions/matrix_add_round_key.c",
+      "src/matrix_functions/matrix_mix_columns.c",
+      "src/matrix_functions/matrix_shift_rows.c",
+      "src/matrix_functions/matrix_sub_bytes.c"        
+    ],
     "dependencies": {
         "clibs/module": "0.1.1"
     }
